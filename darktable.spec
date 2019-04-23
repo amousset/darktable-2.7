@@ -210,7 +210,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/darktable
 %{_libexecdir}/darktable/tools/subr.sh
 
 %changelog
-* Tue Apr 23 2019 Germano Massullo <germano.massullo@gmail.com> - 2.6.1-3
+* Tue Apr 23 2019 Germano Massullo <germano.massullo@gmail.com> - 2.6.2-1
 - 2.6.2 release
 
 * Wed Apr 10 2019 Richard Shaw <hobbes1069@gmail.com> - 2.6.1-2
