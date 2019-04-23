@@ -90,7 +90,7 @@ It also enables you to develop raw images and enhance them.
 
 %package tools-noise
 Summary:        The noise profiling tools to support new cameras
-Requires:       imagemagick
+Requires:       ImageMagick
 Requires:       gnuplot
 
 %description tools-noise
@@ -100,7 +100,7 @@ lighttable. it also enables you to develop raw images and enhance them.
 
 %package tools-basecurve
 Summary:        The basecurve tool from tools/basecurve/
-Requires:       imagemagick
+Requires:       ImageMagick
 Requires:       dcraw
 Requires:       exiftool
 
@@ -212,6 +212,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/darktable
 %changelog
 * Tue Apr 23 2019 Germano Massullo <germano.massullo@gmail.com> - 2.6.2-1
 - 2.6.2 release
+- Renamed imagemagick to ImageMagick
 
 * Wed Apr 10 2019 Richard Shaw <hobbes1069@gmail.com> - 2.6.1-2
 - Rebuild for OpenEXR 2.3.0.
