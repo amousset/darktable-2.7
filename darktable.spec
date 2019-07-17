@@ -197,8 +197,8 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/darktable
 %{_datadir}/applications/darktable.desktop
 %{_datadir}/appdata/darktable.appdata.xml
 %{_datadir}/icons/hicolor/*/apps/darktable*
-%{_mandir}/man1/darktable*.1.gz
-%{_mandir}/*/man1/darktable*.1.gz
+%{_mandir}/man1/darktable*.1*
+%{_mandir}/*/man1/darktable*.1*
 %{_libexecdir}/darktable/
 
 %files tools-noise
